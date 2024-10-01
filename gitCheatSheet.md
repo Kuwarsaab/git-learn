@@ -1,7 +1,7 @@
 
-# Git
+# Git Cheat Sheet
 
-## Blogs
+## Blogs you can refer:
 
 - https://levelup.gitconnected.com/use-git-like-a-senior-engineer-ef6d741c898e
 - https://learngitbranching.js.org/
