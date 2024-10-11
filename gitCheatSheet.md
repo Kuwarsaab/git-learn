@@ -51,6 +51,12 @@
     ```bash
     git commit -m "your commit message"
     ```
+
+10. **Push changes to the remote repository**
+
+```bash
+    git push origin main  // push to the main branch
+```
     
 ## Additional Commands
 
