@@ -59,5 +59,6 @@ public class graph{
             Edge e = graph[ver].get(i);
             System.out.print(e.dest+" ");
         }
+        System.out.println();
     }
 }
