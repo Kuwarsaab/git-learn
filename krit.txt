@@ -1,0 +1,4 @@
+My name is Krit.
+I am an Aspiring Software Developer.
+
+My tech stack is Java, HTML, CSS, JS, Spring, SQL etc.
