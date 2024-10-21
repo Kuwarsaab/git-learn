@@ -1,0 +1,156 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c2a49; /* Changed background color to a deep blue */
+  color: #f7f7f7; /* Light text color */
+  font-family: Arial, sans-serif; /* Changed the font family */
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8c42; /* Centered text with a different color */
+  font-size: 28px; /* Increased font size */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.todo-wrapper {
+  background-color: #f9d423; /* Changed background color to a bright yellow */
+  padding: 3%; /* Increased padding */
+  width: 60%; /* Adjusted width */
+  margin: 3% auto 0 auto;
+  max-height: 70vh; /* Slightly reduced max-height */
+  overflow-y: auto;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Added some transparency to the box shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ff8c42; /* Increased border thickness and changed color */
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+.todo-input-item {
+  margin-right: 20px; /* Reduced margin-right */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todo-input-item label {
+  margin-bottom: 8px; /* Slightly reduced margin */
+  font-weight: normal; /* Removed bold font weight */
+  color: #333; /* Changed text color */
+}
+
+.todo-input-item input {
+  border: 2px solid #ff8c42; /* Added border to input field */
+  padding: 8px;
+  width: 200px; /* Reduced input width */
+  border-radius: 5px; /* Rounded input corners */
+}
+
+.todo-input-item input:focus {
+  outline: 2px solid #ff8c42; /* Changed focus outline color */
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode-button {
+  background-color: #fff;
+  color: #333;
+}
+.primary-btn {
+  background-color: #ff8c42; /* Changed button color to orange */
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  padding: 12px;
+  width: 100px; /* Adjusted button width */
+  cursor: pointer;
+  text-transform: uppercase; /* Uppercase button text */
+}
+
+.primary-btn:hover {
+  background-color: #ff5e13; /* Darker orange on hover */
+}
+
+.btn-area {
+  margin-bottom: 15px; /* Increased margin */
+}
+
+.secondaryBtn {
+  background-color: #333; /* Dark gray background color */
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 12px;
+  width: fit-content;
+  cursor: pointer;
+  text-transform: uppercase; /* Uppercase button text */
+}
+
+.btn-area .active {
+  background-color: #ff5e13; /* Active state color */
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #39414d; /* Changed background color */
+  padding: 15px 20px; /* Increased padding */
+  margin: 0 0 15px 0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3); /* Adjusted box shadow */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.todo-list-item h3 {
+  font-size: 24px; /* Adjusted font size */
+  color: #ff8c42; /* Changed heading color to orange */
+  font-weight: bold;
+  margin: 0;
+  text-transform: capitalize; /* Capitalized heading text */
+}
+
+.todo-list-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777; /* Changed text color */
+}
+
+.icon {
+  font-size: 30px; /* Adjusted icon size */
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff5e13; /* Changed color on hover to a darker orange */
+}
+
+.check-icon {
+  font-size: 20px; /* Adjusted icon size */
+  cursor: pointer;
+  color: #ff8c42; /* Changed color to orange */
+  margin-left: 15px; /* Increased margin */
+  margin-bottom: 0; /* Removed margin-bottom */
+}
+
+.check-icon:hover {
+  color: #ff5e13; /* Changed color on hover to a darker orange */
+}
